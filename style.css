@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Permanent+Marker&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Permanent Marker", cursive;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+}
+.main-box{
+    height: 38vh;
+    width: 45vw;
+    background-color: white;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+    padding: 1rem;
+}
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+p{
+    min-height: 18vh;
+    font-size: 2rem;
+    text-align: center;
+    font-family: "Caveat", cursive;
+    font-weight: 600;
+}
+p::before, p::after{
+    content: '"';
+}
+.btn{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+button{
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 1rem;
+    border: 0;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
+}
