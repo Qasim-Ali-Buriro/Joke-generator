@@ -1,1 +1,1 @@
-This project is made with api taken from rapid api. This project is made from HTML, CSS and JAVASCRIPT.
+This project is made with api taken from rapid api. HTML, CSS and JAVASCRIPT are used in this project.
